@@ -19,18 +19,10 @@ alert (angle3);
 //3 
 
 var a = prompt("type number");
-var b = Number(a) + Number(a);
-var c = b + Number(a);
-var result = a.toString() + b.toString() + c.toString();
-alert(result)
-
-
-var a = prompt("type number");
-var b =  a.toString() + a.toString();
-var c =  b.toString() + a.toString();
+var b =  a + a;
+var c =  b + a;
 var result = Number(a) + Number(b) + Number(c);
 alert(result);
-
 
 // 4 
 
@@ -41,7 +33,7 @@ if(num%10 === 0 || num < 10){
 	var firstNum = num % 10;
 	var lastNum = (num - num % 10) / 10;
 	var result = firstNum.toString() + lastNum.toString();
-	alert (result);
+alert (result);
 }
 
  //5
